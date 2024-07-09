@@ -1,6 +1,17 @@
+"use client"
+
 import Image from "next/image";
-import styles from "./page.module.css";
+
+import Header from "@/components/Header";
+import Link from 'next/link';
+
 
 export default function Home() {
-  
+  <>
+    <Header />
+    <div>
+      <p>test</p>
+      <Link href={"/"}>voltar</Link>
+    </div>
+  </>
 }

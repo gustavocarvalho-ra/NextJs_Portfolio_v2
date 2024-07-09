@@ -7,9 +7,11 @@ import { Head } from "./styles";
 export default function Header() {
 
   return (
-    <Head>
-      
-      
-    </Head>
+    <>
+      <Head>
+        <p>test</p>
+        <Link href={"/"}>Voltar</Link>
+      </Head>
+    </>
   )
 }

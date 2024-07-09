@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-export const Head = styled.section `
+export const Head = styled.div `
   width: 100vw;
-  height: 5vh;
-  background-color: red;
+  height: 50px;
+  background: red;
   
 `
