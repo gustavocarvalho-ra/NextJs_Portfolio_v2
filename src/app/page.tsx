@@ -8,6 +8,7 @@ import Link from 'next/link';
 
 export default function Home() {
   <>
+    <h1>test</h1>
     <Header />
     <div>
       <p>test</p>
