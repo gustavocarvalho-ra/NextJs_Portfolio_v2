@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const Head = styled.div `
-  width: 100vw;
-  height: 5vh;
+  width: 100%;
+  height: 6vh;
+  overflow-x: hidden;
   background: #021626;
   display: flex;
   align-items: center;
@@ -11,4 +12,10 @@ export const Head = styled.div `
   .ctt {
 
   }
+
+`
+export const Hr = styled.hr `
+  border: 1.5px solid green;
+  width: 100%;
+  max-width: 100vw;
 `

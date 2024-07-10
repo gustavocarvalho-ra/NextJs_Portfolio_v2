@@ -3,7 +3,7 @@
 import Link from "next/link"
 import Image from "next/image"
 
-import { Head } from "./styles"
+import { Head, Hr } from "./styles"
 
 
 
@@ -14,10 +14,10 @@ export default function Header() {
         <h1>Gustavo <span>Carvalho</span></h1>
         <div className="ctt">
           <Link href={""}>whatsapp</Link>
-          <Link href={""} style={{marginLeft: "1em"}}>email</Link>
+          <Link href={""}>email</Link>
         </div>
       </Head>
-      <hr className="hr01"/>
+      <Hr />
     </>
   )
 }
