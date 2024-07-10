@@ -10,7 +10,8 @@ import { Head } from "./styles"
 export default function Header() {
   return(
     <Head>
-      <p>test</p>
+      <h1>Gustavo <span>Carvalho</span></h1>
+      <div className="ctt"></div>
     </Head>
   )
 }
