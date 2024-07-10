@@ -11,7 +11,11 @@ export default function Header() {
   return(
     <Head>
       <h1>Gustavo <span>Carvalho</span></h1>
-      <div className="ctt"></div>
+      <div className="ctt">
+        <Link href={""}>whatsapp</Link>
+        <Link href={""}>email</Link>
+      </div>
+      <hr className="hr01"/>
     </Head>
   )
 }
