@@ -13,13 +13,17 @@ export default function Header() {
       <Head>
         <h1>Gustavo <span>Carvalho</span></h1>
         <div className="ctt">
-          <button>
-            <Link href={""}>whatsapp</Link>
-          </button>
-          
-          <button>
-            <Link href={""}>email</Link>
-          </button>
+          <Link href={""} className="btn">
+            <button>
+              whatsapp
+            </button>
+          </Link>
+
+          <Link href={""} className="btn">
+            <button>
+              e-mail
+            </button>
+          </Link>
         </div>
       </Head>
       <Hr />

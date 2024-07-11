@@ -20,6 +20,32 @@ export const Head = styled.div `
 
 
   .ctt {
+    display: flex;
+    gap: .8em;
+
+    .btn {
+      width: 5.5em;
+      height: 1.7em;
+
+      button {
+        width: 100%;
+        height: 100%;
+        font-size: .9em;
+        background: transparent;
+        color: #fff;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 12px;
+        cursor: pointer;
+        transition: all .6s;
+
+        &:hover {
+          background: rgba(255, 255, 255, 0.2);
+          filter: blur(0.1px);
+        }
+      }
+    }
+
 
   }
 
