@@ -2,12 +2,22 @@ import styled from "styled-components";
 
 export const Head = styled.div `
   width: 100%;
-  height: 6vh;
+  height: 5.5vh;
   overflow-x: hidden;
   background: #021626;
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+  h1 {
+    color: #fff;
+    font-size: 2em;
+
+    span {
+      color: green;
+    }
+  }
+
 
   .ctt {
 
