@@ -12,9 +12,9 @@ export default function Header() {
         <Head>
           <h1>Gustavo <span>Carvalho</span></h1>
           <div className="ctt">
-            <Link href={""} className="btn">
+            <Link href={"#inicio"} className="btn">
               <button>
-                whatsapp
+                Início
               </button>
             </Link>
 

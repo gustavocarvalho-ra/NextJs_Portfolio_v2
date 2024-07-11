@@ -5,4 +5,5 @@ export const Pag = styled.section `
   height: 300vh;
   overflow-x: hidden;
   background: #00001b;
+  scroll-behavior: smooth;
 `

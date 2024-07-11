@@ -7,6 +7,7 @@ export const Fix = styled.div `
   flex-direction: column;
   position: fixed;
   justify-content: flex-end;
+  z-index: 2;
 `
 
 export const Head = styled.div `
@@ -32,15 +33,25 @@ export const Head = styled.div `
     display: flex;
     gap: .8em;
 
+    Link {
+      transition: all 5s;
+
+      &:target {
+        scroll-behavior: smooth;
+        transition: all 5s;
+      }
+    }
+
     .btn {
       width: 5.5em;
       height: 1.7em;
+      
 
       button {
         width: 100%;
         height: 100%;
-        font-size: .9em;
-        background: transparent;
+        font-size: 1em;
+        font-family: Poppins;
         color: #fff;
         background: rgba(255, 255, 255, 0.05);
         border: 1px solid rgba(255, 255, 255, 0.3);
