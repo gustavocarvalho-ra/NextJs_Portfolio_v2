@@ -22,15 +22,11 @@ export default function Header() {
           <h1>Gustavo <span>Carvalho</span></h1>
           <div className="ctt">
             <Link href="#inicio" className="btn">
-              <button>
-                Início
-              </button>
+              Início
             </Link>
 
             <Link href={"#info"} className="btn">
-              <button>
-                e-mail
-              </button>
+              sobre
             </Link>
           </div>
         </Head>
