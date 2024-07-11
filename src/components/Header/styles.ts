@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Fix = styled.div `
   width: 100%;
-  height: 5.5vh;
+  height: 6vh;
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -12,9 +12,10 @@ export const Fix = styled.div `
 
 export const Head = styled.div `
   width: 100%;
-  height: 5.5vh;
+  height: 6vh;
   overflow-x: hidden;
-  background: #000010;
+  /* background: #000010; */
+  background: #020c0f;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -24,7 +25,7 @@ export const Head = styled.div `
     font-size: 2em;
 
     span {
-      color: green;
+      color: var(--prymary);
     }
   }
 
@@ -68,7 +69,7 @@ export const Head = styled.div `
 
 `
 export const Hr = styled.hr `
-  border: 1px solid green;
+  border: 1px solid var(--prymary);
   width: 100%;
   max-width: 100vw;
 `

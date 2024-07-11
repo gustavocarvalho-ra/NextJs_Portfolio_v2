@@ -8,7 +8,7 @@ import { Inf } from "./styles"
 export default function Info() {
   return(
     <>
-      <Inf id="Info"/>
+      <Inf id="info"/>
     </>
   )
 }
