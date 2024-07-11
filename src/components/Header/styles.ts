@@ -1,5 +1,14 @@
 import styled from "styled-components";
 
+export const Fix = styled.div `
+  width: 100%;
+  height: 5.5vh;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  justify-content: flex-end;
+`
+
 export const Head = styled.div `
   width: 100%;
   height: 5.5vh;
@@ -41,17 +50,14 @@ export const Head = styled.div `
 
         &:hover {
           background: rgba(255, 255, 255, 0.2);
-          filter: blur(0.1px);
         }
       }
     }
-
-
   }
 
 `
 export const Hr = styled.hr `
-  border: 1.5px solid green;
+  border: 1px solid green;
   width: 100%;
   max-width: 100vw;
 `
