@@ -7,6 +7,7 @@ import { Hom } from "./styles"
 import { FaGithub } from "react-icons/fa";
 import { SiLinkedin } from "react-icons/si";
 import { TfiEmail } from "react-icons/tfi";
+import { Hr } from "../Header/styles";
 
 
 export default function Home() {
@@ -36,7 +37,12 @@ export default function Home() {
         </div>
 
         <div className="scroll">
-          <h3>Scroll</h3>
+          <div className="itens">
+            <hr className="linha" />
+            <h3 style={{display: "flex"}}>Scroll</h3>
+            <hr className="linha" />
+          </div>
+          <Hr style={{width: "100vw"}} />
         </div>
       </div>
     </Hom>

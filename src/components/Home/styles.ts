@@ -46,8 +46,23 @@ export const Hom = styled.div `
     .scroll {
       font-size: 1.5em;
       color: var(--prymary);
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
       position: relative;
-      top: 150px;
+      top: 190px;
+
+      .itens {
+        display: flex;
+        gap: 2em;
+
+        .linha {
+          width: 1px;
+          height: 100%;
+          border: 2px solid var(--prymary)
+        }
+      }
     }
   }
 `
