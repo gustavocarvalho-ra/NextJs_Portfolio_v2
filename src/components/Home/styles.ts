@@ -21,7 +21,8 @@ export const Hom = styled.div `
       align-items: center;
       flex-direction: column;
       justify-content: center;
-      gap: .8em;
+      gap: .6em;
+      cursor: default;
     }
 
     h1 {
@@ -39,6 +40,14 @@ export const Hom = styled.div `
     .icons {
       display: flex;
       gap: 1.7em;
+      /* margin-bottom: 20vh; */
+    }
+
+    .scroll {
+      font-size: 1.5em;
+      color: var(--prymary);
+      position: relative;
+      top: 150px;
     }
   }
 `

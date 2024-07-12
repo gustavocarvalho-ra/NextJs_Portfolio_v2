@@ -34,6 +34,10 @@ export default function Home() {
           </Link>
 
         </div>
+
+        <div className="scroll">
+          <h3>Scroll</h3>
+        </div>
       </div>
     </Hom>
   )
