@@ -44,6 +44,7 @@ export const Hom = styled.div `
     }
 
     .scroll {
+      width: 5vh;
       font-size: 1.5em;
       color: var(--prymary);
       display: flex;
@@ -61,6 +62,11 @@ export const Hom = styled.div `
           width: 1px;
           height: 100%;
           border: 2px solid var(--prymary)
+        }
+
+        .bx {
+          width: 20px;
+          height: 20em;
         }
       }
     }

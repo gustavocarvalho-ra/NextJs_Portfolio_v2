@@ -43,6 +43,7 @@ export default function Home() {
             <hr className="linha" />
           </div>
           <Hr style={{width: "100vw"}} />
+          <hr className="bx"/>
         </div>
       </div>
     </Hom>
