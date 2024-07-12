@@ -4,10 +4,10 @@ import Link from "next/link"
 import Image from 'next/image';
 
 import { Hom } from "./styles"
-import { FaGithub } from "react-icons/fa";
-import { SiLinkedin } from "react-icons/si";
-import { TfiEmail } from "react-icons/tfi";
 import { Hr } from "../Header/styles";
+import { TfiEmail } from "react-icons/tfi";
+import { SiLinkedin } from "react-icons/si";
+import { FaGithub, FaArrowDown } from "react-icons/fa";
 
 
 export default function Home() {
@@ -43,7 +43,7 @@ export default function Home() {
             <hr className="linha" />
           </div>
           <Hr style={{width: "100vw"}} />
-          <hr className="bx"/>
+          <FaArrowDown style={{fontSize: "1.5em"}}/>
         </div>
       </div>
     </Hom>

@@ -63,11 +63,6 @@ export const Hom = styled.div `
           height: 100%;
           border: 2px solid var(--prymary)
         }
-
-        .bx {
-          width: 20px;
-          height: 20em;
-        }
       }
     }
   }
