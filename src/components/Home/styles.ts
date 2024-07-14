@@ -27,13 +27,13 @@ export const Hom = styled.div `
 
     h1 {
       font-size: 3.7em;
-      color: #b5b5b5;
+      color: var(--text-white);
       font-weight: 800;
     }
 
     h2 {
       font-size: 1.8em;
-      color: #b5b5b5;
+      color: var(--text-white);
       font-weight: 400;
     }
 
