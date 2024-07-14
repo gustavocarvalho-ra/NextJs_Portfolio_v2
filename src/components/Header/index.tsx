@@ -29,7 +29,7 @@ export default function Header() {
               Sobre
             </Link>
 
-            <Link href={"#skill"} className="btn">
+            <Link href={"#skills"} className="btn">
               Skills
             </Link>
           </div>
