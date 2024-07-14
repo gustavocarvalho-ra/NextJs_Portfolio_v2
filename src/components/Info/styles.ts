@@ -9,7 +9,7 @@ export const Inf = styled.div `
 
   .container {
     width: 100%;
-    height: 80vh;
+    height: 75vh;
     padding: 2.5em;
     /* padding: ; */
 
@@ -18,9 +18,14 @@ export const Inf = styled.div `
       
       .title {
         color: var(--prymary);
+        margin-bottom: .7em;
       }
 
       .abo {
+        display: flex;
+        flex-direction: column;
+        gap: .7em;
+        text-indent: 2em;
         font-size: 1em;
         padding-left: 2em;
         color: var(--text-white);
