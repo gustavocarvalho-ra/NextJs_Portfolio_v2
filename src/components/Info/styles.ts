@@ -15,6 +15,11 @@ export const Inf = styled.div `
     .about {
       font-size: 1.8em;
 
+
+      .abo {
+        
+        padding-left: 2em;
+      }
     }
   }
 `
