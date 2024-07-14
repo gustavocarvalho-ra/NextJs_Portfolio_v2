@@ -26,7 +26,11 @@ export default function Header() {
             </Link>
 
             <Link href={"#info"} className="btn">
-              sobre
+              Sobre
+            </Link>
+
+            <Link href={"#skill"} className="btn">
+              Skills
             </Link>
           </div>
         </Head>
