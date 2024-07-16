@@ -35,8 +35,12 @@ export default function Skills() {
         <div className="skil">
           {ski.map(tech => 
             <div className="card" key={tech.id}>
-              {tech.icon}
-              <h3 className="nameIcon">{tech.name}</h3>
+              <h1 className="icon">
+                {tech.icon}
+              </h1>
+              <h3 className="nameIcon">
+                {tech.name}
+              </h3>
             </div>
           )}
         </div>
