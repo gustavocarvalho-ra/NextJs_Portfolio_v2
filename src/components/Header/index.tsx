@@ -7,14 +7,6 @@ import { Fix, Head, Hr } from "./styles"
 
 export default function Header() {
 
-  // const LinkScroll = () => {
-  //   return (
-  //     <Link legacyBehavior href="#inicio">
-  //       <a>test</a>
-  //     </Link>
-  //   );
-  // };
-
   return(
     <>
       <Fix>
@@ -31,6 +23,10 @@ export default function Header() {
 
             <Link href={"#skills"} className="btn">
               Skills
+            </Link>
+
+            <Link href={"#skills"} className="btn">
+              Projetos
             </Link>
           </div>
         </Head>
