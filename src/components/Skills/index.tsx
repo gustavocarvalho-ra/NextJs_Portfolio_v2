@@ -20,27 +20,25 @@ import {
 export default function Skills() {
 
   const [ski, setSki] = useState<Tec[]>([
-    { id: "icon", name: "HTML5", icon: <DiHtml5 /> },
-    { id: "icon", name: "CSS3", icon: <DiCss3 /> },
-    { id: "icon", name: "JavaScript", icon: <DiJavascript1 /> },
-    { id: "icon", name: "React", icon: <DiReact /> },
-    { id: "icon", name: "Sass", icon: <DiSass /> },
-    { id: "icon", name: "Phyton", icon: <DiPython /> },
-    { id: "icon", name: "Git", icon: <DiGithubBadge /> },
+    { id: "icon0", name: "HTML5", icon: <DiHtml5 /> },
+    { id: "icon1", name: "CSS3", icon: <DiCss3 /> },
+    { id: "icon2", name: "JavaScript", icon: <DiJavascript1 /> },
+    { id: "icon3", name: "React", icon: <DiReact /> },
+    { id: "icon4", name: "Sass", icon: <DiSass /> },
+    { id: "icon5", name: "Phyton", icon: <DiPython /> },
+    { id: "icon6", name: "Git", icon: <DiGithubBadge /> },
   ]);
 
   return(
     <Ski id="skills">
       <div className="container">
         <div className="skil">
-          {ski.map(tech => {
-            <div className="technology-card" id={tech.id} key={tech.id}>
-              {/* {tech.icon}
-              <div className="technology-icon">
-                <h3>{tech.name}</h3>
-              </div> */}
+          {ski.map(tech => 
+            <div className="card" key={tech.id}>
+              {tech.icon}
+              <h3 className="nameIcon">{tech.name}</h3>
             </div>
-          })}
+          )}
         </div>
         <h1 className="title">Skills</h1>
       </div>
