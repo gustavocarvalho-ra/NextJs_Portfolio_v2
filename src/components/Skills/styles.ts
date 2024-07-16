@@ -40,10 +40,11 @@ export const Ski = styled.div `
         background: #00002b;
         color: var(--prymary);
         cursor: pointer;
-        transition: all 1.3s;
+        transition: all .9s;
 
         &:hover {
-          background: var(--text-white);
+          background: #020c0f;
+          box-shadow: 6px 8px 5px var(--prymary);
         }
 
         .icon {
