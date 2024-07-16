@@ -15,6 +15,7 @@ import {
 } from 'react-icons/di'
 import { RiNextjsLine } from "react-icons/ri";
 import { SiStyledcomponents } from "react-icons/si";
+import { BiLogoTypescript } from "react-icons/bi";
 
 
 export default function Skills() {
@@ -24,11 +25,12 @@ export default function Skills() {
     { id: "icon1", name: "CSS3", icon: <DiCss3 /> },
     { id: "icon2", name: "JavaScript", icon: <DiJavascript1 /> },
     { id: "icon3", name: "Phyton", icon: <DiPython /> },
-    { id: "icon4", name: "React", icon: <DiReact /> },
-    { id: "icon5", name: "NextJs", icon: <RiNextjsLine /> },
-    { id: "icon6", name: "Sass", icon: <DiSass /> },
-    { id: "icon7", name: "Styled-C", icon: <SiStyledcomponents /> },
-    { id: "icon8", name: "Git", icon: <DiGithubBadge /> },
+    { id: "icon4", name: "TypeScript", icon: <BiLogoTypescript /> },
+    { id: "icon5", name: "React", icon: <DiReact /> },
+    { id: "icon6", name: "NextJs", icon: <RiNextjsLine /> },
+    { id: "icon7", name: "Sass", icon: <DiSass /> },
+    { id: "icon8", name: "Styled-C", icon: <SiStyledcomponents /> },
+    { id: "icon9", name: "Git", icon: <DiGithubBadge /> },
   ]);
 
   return(
