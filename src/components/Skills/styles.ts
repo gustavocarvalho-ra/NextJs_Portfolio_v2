@@ -15,7 +15,6 @@ export const Ski = styled.div `
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    gap: 2em;
     
     .title {
       color: var(--prymary);
@@ -31,12 +30,21 @@ export const Ski = styled.div `
 
       .card {
         width: 195px;
+        height: 220px;
         display: flex;
         align-items: center;
         flex-direction: column;
+        justify-content: center;
+        
 
         .icon {
+          height: 155px;
           font-size: 5em;
+        }
+
+        .nameIcon {
+          /* height: ; */
+          /* position: relative; */
         }
       }
     }

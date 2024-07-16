@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { Tec } from "../../interfaces/types"
-
 import { Ski } from "./styles"
+
 import {
   DiHtml5,
   DiCss3,
