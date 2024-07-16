@@ -11,7 +11,6 @@ import {
   DiReact,
   DiSass,
   DiJavascript1,
-  DiJavascript,
   DiPython,
   DiGithubBadge
 } from 'react-icons/di'
@@ -32,6 +31,7 @@ export default function Skills() {
   return(
     <Ski id="skills">
       <div className="container">
+        <h1 className="title">Skills</h1>
         <div className="skil">
           {ski.map(tech => 
             <div className="card" key={tech.id}>
@@ -40,7 +40,7 @@ export default function Skills() {
             </div>
           )}
         </div>
-        <h1 className="title">Skills</h1>
+        
       </div>
     </Ski>
   )
