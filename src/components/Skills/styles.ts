@@ -39,6 +39,12 @@ export const Ski = styled.div `
         border-radius: 8px;
         background: #00002b;
         color: var(--prymary);
+        cursor: pointer;
+        transition: all 1.3s;
+
+        &:hover {
+          background: var(--text-white);
+        }
 
         .icon {
           height: 155px;
