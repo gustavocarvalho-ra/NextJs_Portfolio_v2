@@ -24,12 +24,13 @@ export const Ski = styled.div `
     .skil {
       width: 50vw;
       display: flex;
-      align-items: center;
       flex-wrap: wrap;
-      gap: 2.5em;
+      align-items: center;
+      justify-content: center;
+      gap: 2em;
 
       .card {
-        width: 6em;
+        width: 195px;
         display: flex;
         align-items: center;
         flex-direction: column;
