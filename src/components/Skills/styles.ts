@@ -17,5 +17,13 @@ export const Ski = styled.div `
     .title {
       color: var(--prymary);
     }
+
+    .skil {
+      display: flex;
+
+      .card {
+        width: 6em;
+      }
+    }
   }
 `
