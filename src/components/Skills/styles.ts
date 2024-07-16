@@ -5,7 +5,6 @@ export const Ski = styled.div `
   height: 100vh;
   display: flex;
   align-items: center;
-  background-color: red;
 
   .container {
     width: 100%;
@@ -15,13 +14,14 @@ export const Ski = styled.div `
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    
+    gap: 1.5em;
+
     .title {
       color: var(--prymary);
     }
 
     .skil {
-      width: 50vw;
+      width: 65vw;
       display: flex;
       flex-wrap: wrap;
       align-items: center;
@@ -29,13 +29,16 @@ export const Ski = styled.div `
       gap: 2em;
 
       .card {
-        width: 195px;
+        width: 200px;
         height: 220px;
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        
+        border: 1px solid blue;
+        border-radius: 8px;
+        background: #00002b;
+        color: var(--prymary);
 
         .icon {
           height: 155px;
@@ -43,8 +46,7 @@ export const Ski = styled.div `
         }
 
         .nameIcon {
-          /* height: ; */
-          /* position: relative; */
+          font-size: 1em;
         }
       }
     }

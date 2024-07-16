@@ -27,7 +27,7 @@ export default function Skills() {
     { id: "icon4", name: "React", icon: <DiReact /> },
     { id: "icon5", name: "NextJs", icon: <RiNextjsLine /> },
     { id: "icon6", name: "Sass", icon: <DiSass /> },
-    { id: "icon7", name: "S-C", icon: <SiStyledcomponents /> },
+    { id: "icon7", name: "Styled-C", icon: <SiStyledcomponents /> },
     { id: "icon8", name: "Git", icon: <DiGithubBadge /> },
   ]);
 
