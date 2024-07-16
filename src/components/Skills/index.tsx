@@ -29,6 +29,16 @@ export default function Skills() {
   return(
     <Ski id="skills">
       <div className="container">
+        <div className="skil">
+          {skill.map(tech => {
+            <div className="technology-card" id={tech.id} key={tech.id}>
+              {tech.icon}
+              <div className="technology-icon">
+                <h3>{tech.name}</h3>
+              </div>
+            </div>
+          })}
+        </div>
         <h1 className="title">Skills</h1>
       </div>
     </Ski>
