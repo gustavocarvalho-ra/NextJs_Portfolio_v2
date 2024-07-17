@@ -1,12 +1,11 @@
 "use client"
 
-import Image from "next/image";
-import styles from "./page.module.css";
-import Header from "@/components/Header";
 import { Pag } from "./styles";
-import Info from "@/components/Info";
+import Header from "@/components/Header";
 import Home from "@/components/Home";
+import Info from "@/components/Info";
 import Skills from "@/components/Skills";
+import Project from "@/components/Project";
 
 export default function Page() {
   return (
@@ -15,6 +14,7 @@ export default function Page() {
       <Home />
       <Info />
       <Skills />
+      <Project />
     </Pag>
   );
 }

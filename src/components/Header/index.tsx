@@ -25,7 +25,7 @@ export default function Header() {
               Skills
             </Link>
 
-            <Link href={"#skills"} className="btn">
+            <Link href={"#project"} className="btn">
               Projetos
             </Link>
           </div>
