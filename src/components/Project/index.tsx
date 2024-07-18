@@ -1,9 +1,14 @@
 "use client"
 
+import Image from "next/image";
+
 import { Proj } from "./styles"
+import projec from "../../data/projec.json"
 
 
 export default function Project() {
+
+  let projects = [...projec];
 
   // const [pro, setPro] = useState<Tec[]>([
   //   { id: "proj0", name: "", icon: < /> },
@@ -17,16 +22,12 @@ export default function Project() {
         <div className="container">
           <h1>Projetos:</h1>
           <div className="proje">
-            {/* {ski.map(tech => 
-              <div className="card" key={tech.id}>
-                <h1 className="icon">
-                  {tech.icon}
-                </h1>
-                <h3 className="nameIcon">
-                  {tech.name}
-                </h3>
-              </div>
-            )} */}
+            {projects
+            .map(item => (
+                <div className="ft" key={item.id}>
+                  <Image src={item.photo}  alt="test" sizes="100vh" width={180} height={210} style={{borderRadius: "8px", marginTop: "4px"}}/>
+                </div>
+            ))}
 
           </div>
         </div>
