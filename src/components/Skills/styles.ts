@@ -13,7 +13,6 @@ export const Ski = styled.div `
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
     gap: 1.5em;
 
     .title {

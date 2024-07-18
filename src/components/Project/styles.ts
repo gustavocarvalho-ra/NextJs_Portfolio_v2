@@ -15,7 +15,7 @@ export const Proj = styled.div `
   .container {
     width: 100%;
     height: 85vh;
-    padding: 2.2em;
+    gap: 1.5em;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -26,9 +26,17 @@ export const Proj = styled.div `
       height: 100%;
       display: flex;
       flex-wrap: wrap;
+      gap: 10em;
+
 
       .card {
-        width: 15em;
+        background-color: rebeccapurple;
+        border: 1px solid red;
+
+        width: 20em;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
 
         .img {
           width: 90%;
