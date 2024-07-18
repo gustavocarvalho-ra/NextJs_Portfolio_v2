@@ -5,3 +5,9 @@ export interface Tec {
   name: string;
   icon: React.ReactElement<IconType>;
 }
+
+export interface Pro {
+  id: string;
+  name: string;
+
+}

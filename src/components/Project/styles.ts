@@ -9,7 +9,7 @@ export const Proj = styled.div `
 
   .container {
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     padding: 2.2em;
 
   }
