@@ -21,11 +21,11 @@ export default function Project() {
     <>
       <Proj id="project">
         <div className="container">
-          <h1>Projetos:</h1>
+          <h1 className="title">Projetos</h1>
           <div className="proje">
             {projects
             .map(item => (
-                <div className="ft" key={item.id}>
+                <div className="card" key={item.id}>
                   <Image src={item.photo}  alt="test" sizes="100vh" width={180} height={210} style={{borderRadius: "8px", marginTop: "4px"}}/>
                   <Link href={item.linkUrl}>Link</Link>
                 </div>
