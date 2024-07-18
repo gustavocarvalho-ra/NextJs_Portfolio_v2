@@ -9,5 +9,6 @@ export interface Tec {
 export interface Pro {
   id: number;
   name: string;
-
+  photo: string;
+  linkUrl: string;
 }
