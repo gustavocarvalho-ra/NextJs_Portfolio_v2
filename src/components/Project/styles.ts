@@ -28,7 +28,22 @@ export const Proj = styled.div `
       flex-wrap: wrap;
 
       .card {
+        width: 15em;
 
+        .img {
+          width: 90%;
+          height: 40%;
+          
+          Image {
+            object-fit: cover;
+            position: relative;
+          }
+        }
+
+
+        Link {
+          width: 100%;
+        }
       }
     }
   }

@@ -26,7 +26,9 @@ export default function Project() {
             {projects
             .map(item => (
                 <div className="card" key={item.id}>
-                  <Image src={item.photo}  alt="test" sizes="100vh" width={180} height={210} style={{borderRadius: "8px", marginTop: "4px"}}/>
+                  <div className="img">
+                    <Image src={item.photo} alt="test" width={380} height={250} quality={100} style={{objectFit: "contain"}}/>
+                  </div>
                   <Link href={item.linkUrl}>Link</Link>
                 </div>
             ))}
