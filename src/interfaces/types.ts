@@ -7,7 +7,7 @@ export interface Tec {
 }
 
 export interface Pro {
-  id: string;
+  id: number;
   name: string;
 
 }
