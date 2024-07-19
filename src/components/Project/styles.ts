@@ -28,29 +28,29 @@ export const Proj = styled.div `
       flex-wrap: wrap;
       gap: 10em;
 
-
       .card {
         background-color: rebeccapurple;
         border: 1px solid red;
 
         width: 20em;
+        height: 20em;
         display: flex;
         align-items: center;
         flex-direction: column;
 
+        padding: .6em;
+        gap: .5em;
+
         .img {
-          width: 90%;
-          height: 40%;
-          
-          Image {
-            object-fit: cover;
-            position: relative;
-          }
+          width: 495px;
+          height: 250px;
         }
 
-
-        Link {
-          width: 100%;
+        .descricao {
+          height: 40%;
+          font-size: .61em;
+          font-weight: 400;
+          overflow:auto;    
         }
       }
     }
