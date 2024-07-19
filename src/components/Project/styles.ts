@@ -21,11 +21,11 @@ export const Proj = styled.div `
     justify-content: center;
 
     .proje {
-      width: 90%;
+      width: 95%;
       height: 100%;
       display: flex;
       flex-wrap: wrap;
-      gap: 10em;
+      gap: 1em;
 
       .card {
         background-color: #00002b;

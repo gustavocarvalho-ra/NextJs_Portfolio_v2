@@ -10,5 +10,23 @@
     "name": "Te4s",
     "photo": "/assets/StreetTech.PNG",
     "linkUrl": "https://next-js-loja-roupas.vercel.app/"
+  },
+  {
+    "id": 3,
+    "name": "Te4s",
+    "photo": "/assets/StreetTech.PNG",
+    "linkUrl": "https://next-js-loja-roupas.vercel.app/"
+  },
+  {
+    "id": 4,
+    "name": "Te4s",
+    "photo": "/assets/StreetTech.PNG",
+    "linkUrl": "https://next-js-loja-roupas.vercel.app/"
+  },
+  {
+    "id": 5,
+    "name": "Te4s",
+    "photo": "/assets/StreetTech.PNG",
+    "linkUrl": "https://next-js-loja-roupas.vercel.app/"
   }
 ]
