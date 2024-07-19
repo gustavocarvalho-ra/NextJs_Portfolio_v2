@@ -34,12 +34,13 @@ export default function Project() {
                   <br />
                   A aplicação permite que os clientes explorem as diferentes categorias de roupas, filtradas por estilos, proporcionando uma experiência de compra personalizada e eficiente.
                   </p>
-                  <button className="li">
-                    <Link href={item.linkUrl} target="_blank">Link</Link>
-                  </button>
+                  <Link href={item.linkUrl} className= "link" target="_blank">
+                    <button className="li">
+                      Visitar projeto
+                    </button>
+                  </Link>
                 </div>
             ))}
-
           </div>
         </div>
       </Proj>
