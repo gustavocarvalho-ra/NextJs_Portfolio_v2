@@ -37,9 +37,10 @@ export const Proj = styled.div `
         display: flex;
         align-items: center;
         flex-direction: column;
+        justify-content: center;
 
         padding: .6em;
-        gap: .5em;
+        gap: .6em;
 
         .img {
           width: 495px;
@@ -51,6 +52,11 @@ export const Proj = styled.div `
           font-size: .61em;
           font-weight: 400;
           overflow:auto;    
+        }
+
+        .li {
+          width: 50%;
+          height: 6%;
         }
       }
     }
