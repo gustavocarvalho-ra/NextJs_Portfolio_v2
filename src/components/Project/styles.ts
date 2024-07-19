@@ -33,7 +33,8 @@ export const Proj = styled.div `
       cursor: grab;
 
       &:hover {
-        background: var(--secondary)
+        background: var(--secondary);
+        border: 1px solid var(--prymary);
       }
 
       .card {
