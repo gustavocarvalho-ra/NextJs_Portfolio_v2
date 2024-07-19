@@ -24,8 +24,17 @@ export const Proj = styled.div `
       width: 95%;
       height: 80%;
       display: flex;
+      align-items: center;
       gap: 1em;
       overflow: auto;
+      transition: all .6s;
+      padding: 0 1em 0 1em;
+      border-radius: 12px;
+      cursor: grab;
+
+      &:hover {
+        background: var(--secondary)
+      }
 
       .card {
         background-color: #00002b;
