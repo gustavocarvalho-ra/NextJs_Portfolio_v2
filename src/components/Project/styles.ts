@@ -22,11 +22,10 @@ export const Proj = styled.div `
 
     .proje {
       width: 95%;
-      height: 100%;
+      height: 80%;
       display: flex;
-      flex-wrap: wrap;
       gap: 1em;
-      overflow: hidden;
+      overflow: auto;
 
       .card {
         background-color: #00002b;
@@ -67,6 +66,7 @@ export const Proj = styled.div `
           width: 100%;
           height: 100%;
           color: var(--text-white);
+          font-weight: 900;
           text-transform: uppercase;
           background: rgba(255, 255, 255, 0.05);
           filter: blur(0.1px);
