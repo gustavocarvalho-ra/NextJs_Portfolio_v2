@@ -26,6 +26,7 @@ export const Proj = styled.div `
       display: flex;
       flex-wrap: wrap;
       gap: 1em;
+      overflow: hidden;
 
       .card {
         background-color: #00002b;
