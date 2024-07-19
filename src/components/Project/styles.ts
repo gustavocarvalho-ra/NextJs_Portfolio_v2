@@ -73,6 +73,10 @@ export const Proj = styled.div `
           border-radius: 8px;
           cursor: pointer;
           transition: all .6s;
+
+          &:hover {
+            background: var(--secondary);
+          }
         }
       }
     }

@@ -14,7 +14,7 @@ export const Head = styled.div `
   width: 100%;
   height: 6vh;
   overflow-x: hidden;
-  background: #020c0f;
+  background: var(--secondary);
   display: flex;
   align-items: center;
   justify-content: space-around;

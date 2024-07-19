@@ -42,7 +42,7 @@ export const Ski = styled.div `
         transition: all .9s;
 
         &:hover {
-          background: #020c0f;
+          background: var(--secondary);
           box-shadow: 6px 8px 5px var(--prymary);
         }
 
