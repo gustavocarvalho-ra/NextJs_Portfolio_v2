@@ -34,7 +34,6 @@ export const Proj = styled.div `
 
       &:hover {
         background: var(--secondary);
-        border: 1px solid var(--prymary);
       }
 
       .card {
