@@ -53,6 +53,10 @@ export const Proj = styled.div `
         padding: .6em;
         gap: .6em;
 
+        .titleProj {
+          font-size: 1em;
+        }
+
         .img {
           width: 495px;
           height: 250px;

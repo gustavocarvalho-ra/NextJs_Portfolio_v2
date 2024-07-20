@@ -26,7 +26,7 @@ export default function Project() {
             {projects
             .map(item => (
                 <div className="card" key={item.id}>
-                  <h1 className="title">{item.name}</h1>
+                  <h1 className="titleProj">{item.name}</h1>
                   <div className="img">
                     <Image src={item.photo} alt="test" width={495} height={250} quality={100} style={{objectFit: "contain"}}/>
                   </div>
