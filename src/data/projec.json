@@ -9,24 +9,24 @@
     "id": 2,
     "name": "Marvel Api",
     "photo": "/assets/MarvelApi.PNG",
-    "linkUrl": "https://next-js-loja-roupas.vercel.app/"
+    "linkUrl": "https://next-js-marvel-api.vercel.app/"
   },
   {
     "id": 3,
     "name": "Clone Casas Bahia",
     "photo": "/assets/CasasBahia.PNG",
-    "linkUrl": "https://next-js-loja-roupas.vercel.app/"
+    "linkUrl": "https://next-clone-casas-bahia.vercel.app/"
   },
   {
     "id": 4,
     "name": "Sistem",
     "photo": "/assets/Sistem.PNG",
-    "linkUrl": "https://next-js-loja-roupas.vercel.app/"
+    "linkUrl": "https://sistema-solar-v1.vercel.app/"
   },
   {
     "id": 5,
     "name": "GitHub Search",
     "photo": "/assets/GitHubSearch.PNG",
-    "linkUrl": "https://next-js-loja-roupas.vercel.app/"
+    "linkUrl": "https://react-typescript-api-github.vercel.app/"
   }
 ]
