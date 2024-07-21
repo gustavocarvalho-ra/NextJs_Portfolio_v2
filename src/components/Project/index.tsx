@@ -35,9 +35,9 @@ export default function Project() {
                       <Image src={item.photo} alt="test" width={495} height={250} quality={100} style={{ objectFit: "contain" }} />
                     </div>
                     <p className="descricao">
-                      Este projeto, desenvolvido para uma loja de roupas fictícia, utiliza um banco de dados local para gerenciar o estoque e as informações dos produtos. Com foco na experiência do usuário, o projeto implementa funcionalidades de filtragem e categorização de produtos, utilizando os métodos .map e .filter para otimizar a navegação e a busca por itens específicos.
+                      {item.description}
                       <br />
-                      A aplicação permite que os clientes explorem as diferentes categorias de roupas, filtradas por estilos, proporcionando uma experiência de compra personalizada e eficiente.
+                      {item.subDescription}
                     </p>
                     <Link href={item.linkUrl} className="link" target="_blank">
                       <button className="li">

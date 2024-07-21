@@ -3,30 +3,40 @@
     "id": 1,
     "name": "Street Tech",
     "photo": "/assets/StreetTech.PNG",
-    "linkUrl": "https://next-js-loja-roupas.vercel.app/"
+    "linkUrl": "https://next-js-loja-roupas.vercel.app/",
+    "description": "Este projeto, desenvolvido para uma loja de roupas fictícia, utiliza um banco de dados local para gerenciar o estoque e as informações dos produtos. Com foco na experiência do usuário, o projeto implementa funcionalidades de filtragem e categorização de produtos, utilizando os métodos .map e .filter para otimizar a navegação e a busca por itens específicos.",
+    "subDescription": "A aplicação permite que os clientes explorem as diferentes categorias de roupas, filtradas por estilos, proporcionando uma experiência de compra personalizada e eficiente."
   },
   {
     "id": 2,
     "name": "Marvel Api",
     "photo": "/assets/MarvelApi.PNG",
-    "linkUrl": "https://next-js-marvel-api.vercel.app/"
+    "linkUrl": "https://next-js-marvel-api.vercel.app/",
+    "description": "Neste projeto, construi um banco de dados completo dos personagens da Marvel, utilizando a API oficial da Marvel. O projeto se baseia no método fetch para se conectar à API, coletando informações detalhadas sobre personagens, HQs e arcos narrativos.",
+    "subDescription": "Este projeto é uma ótima ferramenta para fãs da Marvel que desejam mergulhar no universo dos quadrinhos e aprender mais sobre seus personagens favoritos"
   },
   {
     "id": 3,
     "name": "Clone Casas Bahia",
     "photo": "/assets/CasasBahia.PNG",
-    "linkUrl": "https://next-clone-casas-bahia.vercel.app/"
+    "linkUrl": "https://next-clone-casas-bahia.vercel.app/",
+    "description": "Neste projeto, foi feito um clone de uma página das Casas bahia, utilizando um banco de dados local, foi usado o método de .map.",
+    "subDescription": ""
   },
   {
     "id": 4,
     "name": "Sistema Solar",
     "photo": "/assets/Sistem.PNG",
-    "linkUrl": "https://sistema-solar-v1.vercel.app/"
+    "linkUrl": "https://sistema-solar-v1.vercel.app/",
+    "description": "Projeto simples do sistema solar, foi utilizado apenas CSS puro para a realização do mesmo.",
+    "subDescription": ""
   },
   {
     "id": 5,
     "name": "GitHub Search",
     "photo": "/assets/GitHubSearch.PNG",
-    "linkUrl": "https://react-typescript-api-github.vercel.app/"
+    "linkUrl": "https://react-typescript-api-github.vercel.app/",
+    "description": "",
+    "subDescription": ""
   }
 ]
