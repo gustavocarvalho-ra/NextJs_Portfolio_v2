@@ -36,7 +36,7 @@
     "name": "GitHub Search",
     "photo": "/assets/GitHubSearch.PNG",
     "linkUrl": "https://react-typescript-api-github.vercel.app/",
-    "description": "",
+    "description": "Neste projeto, utilizo a api oficial do GitHub para fazer buscas por usuários e suas respectivas informações.",
     "subDescription": ""
   }
 ]
