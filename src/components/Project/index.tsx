@@ -1,5 +1,5 @@
 "use client"
-
+import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -11,10 +11,12 @@ export default function Project() {
 
   let projects = [...projec];
 
-  // const [pro, setPro] = useState<Tec[]>([
-  //   { id: "proj0", name: "", icon: < /> },
+  // const carrossel = useRef()
+  // const [width, setWidth] = useState(0)
 
-  // ]);
+  // useEffect(() => {
+  //   console.log(carrossel.current?.scrollWidth, carrossel.current?.offsetWidth)
+  //   setWidth(carrossel.current?.scrollWidth - carrossel.current?.offsetWidth)
 
 
   return(

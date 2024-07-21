@@ -31,9 +31,12 @@ export const Proj = styled.div `
       padding: 0 1em 0 1em;
       border-radius: 12px;
       cursor: grab;
+      border: 1px solid transparent;
+
 
       &:hover {
         background: var(--secondary);
+        border: 1px solid var(--prymary);
       }
 
       .card {
