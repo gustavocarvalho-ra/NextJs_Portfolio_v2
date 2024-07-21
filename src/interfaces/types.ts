@@ -11,6 +11,8 @@ export interface Pro {
   name: string;
   photo: string;
   linkUrl: string;
+  description: string;
+  subDescription: string;
 }
 
 export interface Carr {
