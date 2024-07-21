@@ -12,3 +12,7 @@ export interface Pro {
   photo: string;
   linkUrl: string;
 }
+
+export interface Carr {
+  scrollWidth: HTMLInputElement | number;
+}
