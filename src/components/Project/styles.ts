@@ -6,6 +6,7 @@ export const Proj = styled.div `
   display: flex;
   align-items: center;
   font-size: 1.8em;
+  cursor: default;
 
   .title {
     color: var(--prymary);
@@ -69,7 +70,7 @@ export const Proj = styled.div `
         border: 1px solid blue;
         border-radius: 8px;
         color: var(--text-white);
-        
+
         .titleProj {
           font-size: 1em;
         }

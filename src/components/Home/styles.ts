@@ -4,6 +4,7 @@ export const Hom = styled.div `
   width: 100%;
   height: 100vh;
   position: relative;
+  cursor: default;
 
   .apresentacao {
     width: 100%;
@@ -22,7 +23,6 @@ export const Hom = styled.div `
       flex-direction: column;
       justify-content: center;
       gap: .6em;
-      cursor: default;
     }
 
     h1 {
@@ -40,7 +40,6 @@ export const Hom = styled.div `
     .icons {
       display: flex;
       gap: 1.7em;
-      /* margin-bottom: 20vh; */
     }
 
     .scroll {

@@ -5,6 +5,7 @@ export const Ski = styled.div `
   height: 100vh;
   display: flex;
   align-items: center;
+  cursor: default;
 
   .container {
     width: 100%;
