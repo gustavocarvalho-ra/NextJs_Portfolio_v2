@@ -21,10 +21,16 @@ export const Proj = styled.div `
     justify-content: center;
 
     ::-webkit-scrollbar {
-        background-color: #1d1d1d;
-        width: 5px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
+        
+        background-color: var(--secondary);
+        height: .4em;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        border-radius: 12px;
+        background-color: var(--prymary);
       }
 
     .proje {
@@ -41,8 +47,7 @@ export const Proj = styled.div `
       border: 1px solid transparent;
 
       ::-webkit-scrollbar {
-        background-color: #1d1d1d;
-        width: 5px;
+        width: 4px;
         border-top-right-radius: 12px;
         border-bottom-right-radius: 12px;
       }
