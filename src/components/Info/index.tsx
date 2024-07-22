@@ -11,9 +11,15 @@ export default function Info() {
           <div className="about">
             <h1 className="title">Sobre:</h1>
             <div className="abo">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aperiam exercitationem! Rem ea iusto, maxime quaerat ipsa, modi aspernatur, architecto nemo saepe culpa doloremque nesciunt dolorum? Nam explicabo consequuntur rem.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam id magni perspiciatis nisi omnis quasi tempora nemo maxime vel! Architecto odio debitis delectus dolor a quae sunt ullam veniam ex.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, possimus cum dolorum veniam eum excepturi at et facere? Pariatur at soluta esse, quibusdam blanditiis commodi ab aliquid sunt dolor culpa?</p>
+              <p>
+                Começando os estudos na área de desenvolvimento, atualmente tenho conhecimentos em Front-End mas com o objetivo de um dia ser Full-Stack, procuro uma oportunidade para desenvolver meus conhecimento e aprender mais sobre a área. 
+              </p>
+              <p>
+                Com minha bagagem na graduação de Design Gráfico possuo conhecimentos teóricos e práticos na área. Conheço ferramentas como Illustrator e Photoshop o que pode ser um diferencial para a equipe, Além de ter aprendido sobre UX e UI em minha graduação.
+              </p>
+              <p>
+                Estou disposto e me interesso em aprender tecnologias novas, me adapto facilmente a qualquer mudança, tentando até conseguir superar os objetivos.
+              </p>
             </div>
           </div>
         </div>

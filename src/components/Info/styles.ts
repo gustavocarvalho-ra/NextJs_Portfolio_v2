@@ -22,13 +22,16 @@ export const Inf = styled.div `
       }
 
       .abo {
-        display: flex;
-        flex-direction: column;
-        gap: .7em;
         text-indent: 2em;
+        line-height: 1.5;
         font-size: 1em;
         padding-left: 2em;
         color: var(--text-white);
+
+        p {
+          margin-top: .8em;
+          text-align: justify;
+        }
       }
     }
   }
