@@ -57,21 +57,19 @@ export const Proj = styled.div `
       }
 
       .card {
-        background-color: #00002b;
-        border: 1px solid blue;
-        border-radius: 8px;
-        color: var(--text-white);
-
         width: 20em;
         height: 20em;
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: center;
-
         padding: .6em;
         gap: .6em;
-
+        background-color: #00002b;
+        border: 1px solid blue;
+        border-radius: 8px;
+        color: var(--text-white);
+        
         .titleProj {
           font-size: 1em;
         }
@@ -86,9 +84,10 @@ export const Proj = styled.div `
           height: 40%;
           font-size: .55em;
           font-weight: 300;
-          overflow: auto;    
+          overflow: auto;
           background: #00003f;
-          
+          padding: 0 .5em;
+          text-align: justify;
 
           P {
             text-indent: 1em;
