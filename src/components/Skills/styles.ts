@@ -43,7 +43,8 @@ export const Ski = styled.div `
 
         &:hover {
           background: var(--secondary);
-          box-shadow: 6px 8px 5px var(--prymary);
+          scale: 1.02;
+          box-shadow: 2px 3px 5px var(--prymary);
         }
 
         .icon {
