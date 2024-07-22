@@ -20,6 +20,13 @@ export const Proj = styled.div `
     flex-direction: column;
     justify-content: center;
 
+    ::-webkit-scrollbar {
+        background-color: #1d1d1d;
+        width: 5px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+
     .proje {
       width: 95%;
       height: 80%;
@@ -33,11 +40,19 @@ export const Proj = styled.div `
       cursor: grab;
       border: 1px solid transparent;
 
+      ::-webkit-scrollbar {
+        background-color: #1d1d1d;
+        width: 5px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+      }
 
       &:hover {
         background: var(--secondary);
         border: 1px solid var(--prymary);
       }
+
+
 
       .card {
         background-color: #00002b;
