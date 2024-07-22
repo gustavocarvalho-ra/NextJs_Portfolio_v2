@@ -21,17 +21,16 @@ export const Proj = styled.div `
     justify-content: center;
 
     ::-webkit-scrollbar {
-        
-        background-color: var(--secondary);
-        height: .4em;
-        border-bottom-left-radius: 12px;
-        border-bottom-right-radius: 12px;
-      }
+      background-color: var(--secondary);
+      height: .4em;
+      border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+    }
 
-      ::-webkit-scrollbar-thumb {
-        border-radius: 12px;
-        background-color: var(--prymary);
-      }
+    ::-webkit-scrollbar-thumb {
+      border-radius: 12px;
+      background-color: var(--prymary);
+    }
 
     .proje {
       width: 95%;
