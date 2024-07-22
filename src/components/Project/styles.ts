@@ -56,8 +56,6 @@ export const Proj = styled.div `
         border: 1px solid var(--prymary);
       }
 
-
-
       .card {
         background-color: #00002b;
         border: 1px solid blue;
@@ -86,17 +84,22 @@ export const Proj = styled.div `
 
         .descricao {
           height: 40%;
-          font-size: .61em;
-          font-weight: 400;
+          font-size: .55em;
+          font-weight: 300;
           overflow: auto;    
           background: #00003f;
-        }
+          
 
+          P {
+            text-indent: 1em;
+          }
+        }
 
         .link {
           width: 50%;
           height: 6%;
         }
+
         .li {
           width: 100%;
           height: 100%;

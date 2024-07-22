@@ -34,11 +34,14 @@ export default function Project() {
                     <div className="img">
                       <Image src={item.photo} alt="test" width={495} height={250} quality={100} style={{ objectFit: "contain" }} />
                     </div>
-                    <p className="descricao">
-                      {item.description}
-                      <br />
-                      {item.subDescription}
-                    </p>
+                    <div className="descricao">
+                      <p>
+                        {item.description}
+                      </p>
+                      <p>
+                        {item.subDescription}
+                      </p>
+                    </div>
                     <Link href={item.linkUrl} className="link" target="_blank">
                       <button className="li">
                         Visitar projeto
