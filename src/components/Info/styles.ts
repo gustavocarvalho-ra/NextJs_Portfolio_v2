@@ -5,17 +5,16 @@ export const Inf = styled.div `
   height: 100vh;
   display: flex;
   align-items: center;
-  /* background-color: red; */
+  cursor: default;
 
   .container {
     width: 100%;
     height: 75vh;
     padding: 2.5em;
-    /* padding: ; */
 
     .about {
       font-size: 1.8em;
-      
+
       .title {
         color: var(--prymary);
         margin-bottom: .7em;
