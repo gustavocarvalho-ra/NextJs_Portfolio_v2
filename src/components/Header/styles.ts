@@ -40,13 +40,34 @@ export const Head = styled.div `
       text-decoration: none;
       cursor: pointer;
       transition: all .6s;
+      position: relative;
 
       &:hover {
         color: var(--prymary);
       }
+
+      &:before {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        border-radius: 25px;
+        transform: scaleX(0);
+        background: var(--prymary);
+        transform-origin: right;
+        transition: transform 0.6s ease;
+      }
+
+      &:hover:before {
+        transform: scaleX(1);
+        transform-origin: left;
+      }
     }
   }
 `
+
 export const Hr = styled.hr `
   border: 1px solid var(--prymary);
   width: 100%;
