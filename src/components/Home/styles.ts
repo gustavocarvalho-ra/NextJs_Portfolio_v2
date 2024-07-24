@@ -40,6 +40,14 @@ export const Hom = styled.div `
     .icons {
       display: flex;
       gap: 1.7em;
+
+      .ico {
+        transition: all 1s;
+
+        &:hover {
+          scale: 1.2;
+        }
+      }
     }
 
     .scroll {

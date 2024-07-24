@@ -23,15 +23,15 @@ export default function Home() {
 
         <div className="icons">
           <Link href={"https://github.com/gustavocarvalho-ra"} target="_blank">
-            <FaGithub style={{fontSize: '1.7em', color: 'var(--prymary)' }}/>
+            <FaGithub className="ico" style={{fontSize: '1.7em', color: 'var(--prymary)' }}/>
           </Link>
 
           <Link href={""}>
-            <TfiEmail style={{fontSize: '1.7em', color: 'var(--prymary)'}} />
+            <TfiEmail className="ico" style={{fontSize: '1.7em', color: 'var(--prymary)'}} />
           </Link>
           
           <Link href={"https://www.linkedin.com/in/gustavo-carvalho-7bb361205/"} target="_blank">
-            <SiLinkedin style={{fontSize: '1.7em', color: 'var(--prymary)'}}/>
+            <SiLinkedin className="ico" style={{fontSize: '1.7em', color: 'var(--prymary)'}}/>
           </Link>
 
         </div>
