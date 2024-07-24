@@ -6,6 +6,6 @@ export const Foot = styled.div `
   display: flex;
   align-items: center;
   justify-content: center;
-  color: red;
+  color: var(--text-white);
   background: var(--secondary);
 `

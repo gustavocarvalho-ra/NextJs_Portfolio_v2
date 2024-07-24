@@ -2,17 +2,15 @@
 
 import Link from "next/link"
 import { Foot } from "./styles"
+import { Hr } from "../Header/styles"
 
 export default function Footer() {
 
   return(
     <>
+      <Hr />
       <Foot>
-        <h1>Criado por: 
-          <Link href={"https://www.linkedin.com/in/gustavo-carvalho-7bb361205/"} target="_blank">
-            Gustavo
-          </Link>
-        </h1>
+        <h3>Agradeço imensamente por dedicar seu tempo à análise do meu projeto até aqui!</h3>
       </Foot>
     </>
   )
