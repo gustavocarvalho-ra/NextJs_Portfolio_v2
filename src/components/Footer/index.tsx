@@ -3,7 +3,7 @@
 import Link from "next/link"
 import { Foot } from "./styles"
 
-export default function Header() {
+export default function Footer() {
 
   return(
     <>
