@@ -38,5 +38,13 @@
     "linkUrl": "https://react-typescript-api-github.vercel.app/",
     "description": "Neste projeto, utilizo a api oficial do GitHub para fazer buscas por usuários e suas respectivas informações.",
     "subDescription": ""
+  },
+  {
+    "id": 6,
+    "name": "React Login",
+    "photo": "/assets/ReactLogin.PNG",
+    "linkUrl": "https://react-login-gilt.vercel.app/",
+    "description": "Neste projeto, crio uma interface simples e intuitiva para a realização de um login em um site fictício.",
+    "subDescription": ""
   }
 ]
