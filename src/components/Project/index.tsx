@@ -2,6 +2,7 @@
 import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion"
 
 import { Proj } from "./styles"
 import projec from "../../data/projec.json"
@@ -26,10 +27,11 @@ export default function Project() {
         <Proj id="project">
           <div className="container">
             <h1 className="title">Projetos</h1>
-            <div className="proje">
-              {projects
+            <motion.div className="proje" whileTap={{cursor: "grabbing"}}>
+              <motion.div className="inner" drag="x">
+                {projects
                 .map(item => (
-                  <div className="card" key={item.id}>
+                  <motion.div className="card" key={item.id}>
                     <h1 className="titleProj">{item.name}</h1>
                     <div className="img">
                       <Image src={item.photo} alt="test" width={495} height={250} quality={100} style={{ objectFit: "contain" }} />
@@ -47,9 +49,10 @@ export default function Project() {
                         Visitar projeto
                       </button>
                     </Link>
-                  </div>
+                  </motion.div>
                 ))}
-            </div>
+              </motion.div>
+            </motion.div>
           </div>
         </Proj>
       </>
