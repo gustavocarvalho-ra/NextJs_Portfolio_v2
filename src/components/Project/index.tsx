@@ -14,10 +14,16 @@ export default function Project() {
   let projects = [...projec];
 
   const proje = useRef<HTMLDivElement>(null)
+  const [width, setWidth] = useState(0)
 
   useEffect(() => {
-    console.log(proje.current)
-  }, [])
+    console.log(proje.current?.scrollWidth, proje.current?.offsetWidth)
+    if (proje.current) {
+      const scrollWidth = proje.current?.scrollWidth;
+      const offsetWidth = proje.current?.offsetWidth;
+      setWidth(scrollWidth - offsetWidth)
+    }
+  }, [width])
 
     return (
       <>
@@ -25,7 +31,7 @@ export default function Project() {
           <div className="container">
             <h1 className="title">Projetos</h1>
             <motion.div ref={proje} className="proje" whileTap={{cursor: "grabbing"}}>
-              <motion.div className="inner" drag="x">
+              <motion.div className="inner" drag="x" dragConstraints={{right: 0, left: -width}}>
                 {projects
                 .map(item => (
                   <motion.div className="card" key={item.id}>

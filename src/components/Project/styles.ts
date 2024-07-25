@@ -43,7 +43,10 @@ export const Proj = styled.div `
       }
 
       .inner {
+        width: 100%;
+        height: 100%;
         display: flex;
+        align-items: center;
         gap: 1em;
 
         .card {
