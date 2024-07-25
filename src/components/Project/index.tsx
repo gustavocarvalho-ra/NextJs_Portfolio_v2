@@ -13,21 +13,18 @@ export default function Project() {
 
   let projects = [...projec];
 
-  // const carrossel = useRef()
-  // const [width, setWidth] = useState<Carr[]>()
+  const proje = useRef<HTMLDivElement>(null)
 
-  // useEffect( () => {
-  //   // console.log(carrossel.current?.scrollWidth, carrossel.current?.offsetWidth);
-  //   setWidth(carrossel.current?.scrollWidth - carrossel.current?.offsetWidth);
-  // }, [])
-
+  useEffect(() => {
+    console.log(proje.current)
+  }, [])
 
     return (
       <>
         <Proj id="project">
           <div className="container">
             <h1 className="title">Projetos</h1>
-            <motion.div className="proje" whileTap={{cursor: "grabbing"}}>
+            <motion.div ref={proje} className="proje" whileTap={{cursor: "grabbing"}}>
               <motion.div className="inner" drag="x">
                 {projects
                 .map(item => (
