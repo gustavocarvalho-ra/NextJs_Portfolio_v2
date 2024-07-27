@@ -6,8 +6,6 @@ import { motion } from "framer-motion"
 
 import { Proj } from "./styles"
 import projec from "../../data/projec.json"
-import { Carr } from "@/interfaces/types";
-
 
 export default function Project() {
 
@@ -17,11 +15,11 @@ export default function Project() {
   const [width, setWidth] = useState(0)
 
   useEffect(() => {
-    console.log(proje.current?.scrollWidth, proje.current?.offsetWidth)
+    // console.log(proje.current?.scrollWidth, proje.current?.offsetWidth)
     if (proje.current) {
       const scrollWidth = proje.current?.scrollWidth;
       const offsetWidth = proje.current?.offsetWidth;
-      setWidth(scrollWidth - offsetWidth)
+      setWidth(scrollWidth + 240 - offsetWidth)
     }
   }, [width])
 
@@ -33,7 +31,7 @@ export default function Project() {
             <motion.div ref={proje} className="proje" whileTap={{cursor: "grabbing"}}>
               <motion.div className="inner" drag="x" dragConstraints={{right: 0, left: -width}}>
                 {projects
-                .map(item => (
+                  .map(item => (
                   <motion.div className="card" key={item.id}>
                     <h1 className="titleProj">{item.name}</h1>
                     <div className="img">
@@ -53,7 +51,8 @@ export default function Project() {
                       </button>
                     </Link>
                   </motion.div>
-                ))}
+                  ))
+                }
               </motion.div>
             </motion.div>
           </div>

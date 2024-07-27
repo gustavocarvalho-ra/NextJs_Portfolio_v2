@@ -14,7 +14,3 @@ export interface Pro {
   description: string;
   subDescription: string;
 }
-
-export interface Carr {
-  scrollWidth: HTMLInputElement | number;
-}
