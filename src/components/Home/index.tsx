@@ -26,7 +26,7 @@ export default function Home() {
             <FaGithub className="ico" style={{fontSize: '1.7em', color: 'var(--prymary)' }}/>
           </Link>
 
-          <Link href={""}>
+          <Link href={"mailto:gustavoc1922@gmail.com"}>
             <TfiEmail className="ico" style={{fontSize: '1.7em', color: 'var(--prymary)'}} />
           </Link>
           
