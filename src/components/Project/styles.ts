@@ -62,9 +62,7 @@ export const Proj = styled.div `
           border: 1px solid blue;
           border-radius: 8px;
           color: var(--text-white);
-          pointer-events: none;
 
-  
           .titleProj {
             font-size: 1em;
           }
@@ -73,6 +71,7 @@ export const Proj = styled.div `
             width: 495px;
             height: 250px;
             border-radius: 8px;
+            pointer-events: none;
           }
   
           .descricao {
