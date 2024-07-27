@@ -13,7 +13,7 @@ import { FaGithub, FaArrowDown } from "react-icons/fa";
 export default function Home() {
   return(
     <Hom id="inicio">
-      <Image src={"/back.jpeg"} alt="test" fill={true} style={{filter: "blur(8px)", objectFit: "cover", zIndex: "1"}} />
+      <Image src={"/back.jpeg"} alt="test" fill={true} priority={true} style={{filter: "blur(8px)", objectFit: "cover", zIndex: "1"}} />
       <div className="apresentacao">
         <div className="apre">
           <h2>Olá!</h2>
