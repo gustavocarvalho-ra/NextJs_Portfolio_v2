@@ -43,7 +43,7 @@ export const Proj = styled.div `
       }
 
       .inner {
-        width: 3000px;
+        width: 3500px;
         height: 100%;
         display: flex;
         align-items: center;
@@ -62,6 +62,8 @@ export const Proj = styled.div `
           border: 1px solid blue;
           border-radius: 8px;
           color: var(--text-white);
+          pointer-events: none;
+
   
           .titleProj {
             font-size: 1em;
