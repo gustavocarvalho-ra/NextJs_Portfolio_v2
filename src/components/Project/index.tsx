@@ -19,7 +19,7 @@ export default function Project() {
     if (proje.current) {
       const scrollWidth = proje.current?.scrollWidth;
       const offsetWidth = proje.current?.offsetWidth;
-      setWidth(scrollWidth + 240 - offsetWidth)
+      setWidth(scrollWidth + 540 - offsetWidth)
     }
   }, [width])
 
@@ -53,6 +53,7 @@ export default function Project() {
                   </motion.div>
                   ))
                 }
+                <p>Mais projetos em breve!</p>
               </motion.div>
             </motion.div>
           </div>
