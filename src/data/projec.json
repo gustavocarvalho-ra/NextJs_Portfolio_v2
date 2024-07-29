@@ -46,5 +46,13 @@
     "linkUrl": "https://react-login-gilt.vercel.app/",
     "description": "Neste projeto, crio uma interface simples e intuitiva para a realização de um login em um site fictício.",
     "subDescription": ""
+  },
+  {
+    "id": 7,
+    "name": "Relógio CSS - JS",
+    "photo": "/assets/ReactLogin.PNG",
+    "linkUrl": "https://react-login-gilt.vercel.app/",
+    "description": "Neste projeto, crio uma interface simples e intuitiva para a realização de um login em um site fictício.",
+    "subDescription": ""
   }
 ]
