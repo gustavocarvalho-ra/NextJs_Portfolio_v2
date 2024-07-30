@@ -53,7 +53,7 @@ export default function Project() {
                   </motion.div>
                   ))
                 }
-                <p style={{color: "var(--text-white)"}}>Mais projetos em breve!</p>
+                <p style={{display: "flex", flexDirection: "column", alignItems: "center", color: "var(--text-white)"}}>Mais projetos em breve!</p>
               </motion.div>
             </motion.div>
           </div>
