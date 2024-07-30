@@ -19,7 +19,7 @@ export default function Project() {
     if (proje.current) {
       const scrollWidth = proje.current?.scrollWidth;
       const offsetWidth = proje.current?.offsetWidth;
-      setWidth(scrollWidth + 540 - offsetWidth)
+      setWidth(scrollWidth + 1000 - offsetWidth)
     }
   }, [width])
 
