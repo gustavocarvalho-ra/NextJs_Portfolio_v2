@@ -24,7 +24,7 @@ export default function Skills() {
     { id: "icon0", name: "HTML5", icon: <DiHtml5 /> },
     { id: "icon1", name: "CSS3", icon: <DiCss3 /> },
     { id: "icon2", name: "JavaScript", icon: <DiJavascript1 /> },
-    { id: "icon3", name: "Phyton", icon: <DiPython /> },
+    { id: "icon3", name: "Python", icon: <DiPython /> },
     { id: "icon4", name: "TypeScript", icon: <BiLogoTypescript /> },
     { id: "icon5", name: "React", icon: <DiReact /> },
     { id: "icon6", name: "NextJs", icon: <RiNextjsLine /> },
