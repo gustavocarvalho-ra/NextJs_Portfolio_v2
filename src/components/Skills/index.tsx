@@ -4,6 +4,8 @@ import { useState } from "react";
 import { Tec } from "../../interfaces/types"
 import { Ski } from "./styles"
 
+import { motion } from "framer-motion";
+
 import {
   DiHtml5,
   DiCss3,
@@ -39,14 +41,23 @@ export default function Skills() {
         <h1 className="title">Skills</h1>
         <div className="skil">
           {ski.map(tech => 
-            <div className="card" key={tech.id}>
+            <motion.div 
+              className="card" 
+              key={tech.id}
+              initial={{ scale: 0 }}
+              animate={{ rotate: 360, scale: 1 }}
+              transition={{
+                type: "spring",
+                stiffness: 200,
+                damping: 20
+              }}>
               <h1 className="icon">
                 {tech.icon}
               </h1>
               <h3 className="nameIcon">
                 {tech.name}
               </h3>
-            </div>
+            </motion.div>
           )}
         </div>
         
