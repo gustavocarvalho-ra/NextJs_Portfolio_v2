@@ -6,7 +6,7 @@ export const Inf = styled.div `
   display: flex;
   align-items: center;
   cursor: default;
-  background: linear-gradient(135deg, rgba(0,0,27,1) 40%, rgba(1,84,99,1) 100%);
+  background: linear-gradient(135deg, rgba(0,0,27,1) 28%, rgba(0,0,125,1) 100%);
 
   .container {
     width: 100%;
