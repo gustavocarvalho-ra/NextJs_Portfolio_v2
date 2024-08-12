@@ -6,6 +6,7 @@ export const Ski = styled.div `
   display: flex;
   align-items: center;
   cursor: default;
+  background: linear-gradient(45deg, rgba(0,0,27,1) 40%, rgba(1,84,99,1) 100%);
 
   .container {
     width: 100%;
