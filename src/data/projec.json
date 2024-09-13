@@ -4,7 +4,7 @@
     "name": "Street Tech",
     "photo": "/assets/StreetTech.PNG",
     "linkUrl": "https://next-js-loja-roupas.vercel.app/",
-    "description": "Este projeto, desenvolvido para uma loja de roupas fictícia, utiliza um banco de dados local para gerenciar o estoque e as informações dos produtos. Com foco na experiência do usuário, o projeto implementa funcionalidades de filtragem e categorização de produtos, utilizando os métodos .map e .filter para otimizar a navegação e a busca por itens específicos.",
+    "description": "Neste projeto, desenvolvido para uma loja de roupas fictícia, utiliza um banco de dados local para gerenciar o estoque e as informações dos produtos. Com foco na experiência do usuário, o projeto implementa funcionalidades de filtragem e categorização de produtos, utilizando os métodos .map e .filter para otimizar a navegação e a busca por itens específicos.",
     "subDescription": "A aplicação permite que os clientes explorem as diferentes categorias de roupas, filtradas por estilos, proporcionando uma experiência de compra personalizada e eficiente."
   },
   {
