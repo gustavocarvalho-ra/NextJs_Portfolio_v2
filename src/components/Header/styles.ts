@@ -8,6 +8,10 @@ export const Fix = styled.div `
   position: fixed;
   justify-content: flex-end;
   z-index: 2;
+
+  @media (max-width: 440px) {
+    height: 9vh;
+  }
 `
 
 export const Head = styled.div `
@@ -20,9 +24,18 @@ export const Head = styled.div `
   justify-content: space-around;
   cursor: default;
 
+  @media (max-width: 440px) {
+    height: 100%;
+    flex-direction: column;
+  }
+
   h1 {
     color: #fff;
     font-size: 2em;
+
+    @media (max-width: 440px) {
+      font-size: 1.5em;
+    }
 
     span {
       color: var(--prymary);
