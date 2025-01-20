@@ -13,6 +13,10 @@ export const Inf = styled.div `
     height: 75vh;
     padding: 2.5em;
 
+    @media (max-width: 440px) {
+      height: 90%;
+    }
+
     .about {
       font-size: 1.8em;
 
