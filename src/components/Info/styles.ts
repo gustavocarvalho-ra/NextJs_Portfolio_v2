@@ -29,7 +29,7 @@ export const Inf = styled.div `
         margin-bottom: .7em;
 
         @media (max-width: 440px) {
-          font-size: 1.3;
+          font-size: 1.5em;
         }
       }
 
