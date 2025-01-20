@@ -13,6 +13,10 @@
   ::-webkit-scrollbar {
     background-color: var(--secondary);
     width: .7em;
+
+    @media (max-width: 440px) {
+      width: .35em;
+    }
   }
 
   ::-webkit-scrollbar-thumb {
