@@ -16,9 +16,17 @@ export const Inf = styled.div `
     .about {
       font-size: 1.8em;
 
+      @media (max-width: 440px) {
+        font-size: 1.1em;
+      }
+
       .title {
         color: var(--prymary);
         margin-bottom: .7em;
+
+        @media (max-width: 440px) {
+          font-size: 1.3;
+        }
       }
 
       .abo {
@@ -27,6 +35,10 @@ export const Inf = styled.div `
         font-size: 1em;
         padding-left: 2em;
         color: var(--text-white);
+
+        @media (max-width: 440px) {
+          padding-left: 1em;
+        }
 
         p {
           margin-top: .8em;
