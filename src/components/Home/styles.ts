@@ -16,6 +16,7 @@ export const Hom = styled.div `
     position: absolute;
     z-index: 1;
     gap: 2em;
+    padding: 1em;
 
     .apre {
       display: flex;
@@ -29,6 +30,11 @@ export const Hom = styled.div `
       font-size: 3.7em;
       color: var(--text-white);
       font-weight: 800;
+
+      @media (max-width: 440px) {
+        font-size: 3em;
+        width: 80%;
+      }
     }
 
     h2 {
