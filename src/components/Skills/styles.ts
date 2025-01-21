@@ -33,6 +33,11 @@ export const Ski = styled.div `
       justify-content: center;
       gap: 2em;
 
+      @media (max-width: 440px) {
+        width: 100%;
+        padding: .3em;
+      }
+
       .card {
         width: 200px;
         height: 220px;
@@ -61,10 +66,19 @@ export const Ski = styled.div `
         .icon {
           height: 155px;
           font-size: 5em;
+
+          @media (max-width: 440px) {
+            height: 85px;
+            font-size: 3em;
+          }
         }
 
         .nameIcon {
           font-size: 1em;
+
+          @media (max-width: 440px) {
+            font-size: .55em;
+          }
         }
       }
     }
