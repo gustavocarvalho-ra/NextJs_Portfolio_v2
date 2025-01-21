@@ -17,11 +17,17 @@ export const Ski = styled.div `
     flex-direction: column;
     gap: 1.5em;
 
+    @media (max-width: 440px) {
+      height: 88%;
+      padding-top: 1em;
+      gap: .7em;
+    }
+
     .title {
       color: var(--prymary);
 
       @media (max-width: 440px) {
-        font-size: 1.2em;
+        font-size: 1.11em;
       }
     }
 
@@ -36,6 +42,7 @@ export const Ski = styled.div `
       @media (max-width: 440px) {
         width: 100%;
         padding: .3em;
+        gap: 1em;
       }
 
       .card {
