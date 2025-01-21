@@ -19,6 +19,10 @@ export const Ski = styled.div `
 
     .title {
       color: var(--prymary);
+
+      @media (max-width: 440px) {
+        font-size: 1.5em;
+      }
     }
 
     .skil {
@@ -42,6 +46,11 @@ export const Ski = styled.div `
         color: var(--prymary);
         cursor: pointer;
         transition: all .9s;
+
+        @media (max-width: 440px) {
+          width: 100px;
+          height: 120px;
+        }
 
         &:hover {
           background: var(--secondary);
