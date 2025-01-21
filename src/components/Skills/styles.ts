@@ -21,7 +21,7 @@ export const Ski = styled.div `
       color: var(--prymary);
 
       @media (max-width: 440px) {
-        font-size: 1.5em;
+        font-size: 1.2em;
       }
     }
 
