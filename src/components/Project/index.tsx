@@ -35,7 +35,7 @@ export default function Project() {
                   <motion.div className="card" key={item.id}>
                     <h1 className="titleProj">{item.name}</h1>
                     <div className="img">
-                      <Image src={item.photo} alt="test" width={495} height={250} quality={100} style={{ objectFit: "contain" }} />
+                      <Image src={item.photo} alt="test" layout="responsive" width={495} height={250} quality={100} style={{ objectFit: "contain" }} />
                     </div>
                     <div className="descricao">
                       <p>

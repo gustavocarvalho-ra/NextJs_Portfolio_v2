@@ -91,17 +91,10 @@ export const Proj = styled.div `
             border-radius: 8px;
             pointer-events: none;
 
-            /* @media (max-width: 440px) {
-              width: 300px;
+            @media (max-width: 440px) {
+              width: 295px;
+              height: 170px;
             }
-
-            image {
-              width: 300px;
-
-              @media (max-width: 440px) {
-                width: 100%;
-              }
-            } */
           }
   
           .descricao {
