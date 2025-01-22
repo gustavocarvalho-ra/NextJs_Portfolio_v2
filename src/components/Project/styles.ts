@@ -38,6 +38,11 @@ export const Proj = styled.div `
       cursor: grab;
       border: 1px solid transparent;
 
+      @media (max-width: 440px) {
+        width: 90%;
+        height: 85%;
+      }
+
       ::-webkit-scrollbar {
         width: 4px;
       }
@@ -67,6 +72,10 @@ export const Proj = styled.div `
           border: 1px solid blue;
           border-radius: 8px;
           color: var(--text-white);
+
+          @media (max-width: 440px) {
+            width: 12.5em;
+          }
 
           .titleProj {
             font-size: 1em;
