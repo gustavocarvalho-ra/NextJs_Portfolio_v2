@@ -11,6 +11,10 @@ export const Proj = styled.div `
 
   .title {
     color: var(--prymary);
+
+    @media (max-width: 440px) {
+      font-size: 1.11em;
+    }
   }
 
   .container {
