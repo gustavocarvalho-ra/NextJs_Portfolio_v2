@@ -74,7 +74,7 @@ export const Proj = styled.div `
           color: var(--text-white);
 
           @media (max-width: 440px) {
-            width: 12.5em;
+            width: 11.5em;
           }
 
           .titleProj {
@@ -90,6 +90,18 @@ export const Proj = styled.div `
             height: 250px;
             border-radius: 8px;
             pointer-events: none;
+
+            @media (max-width: 440px) {
+              width: 300px;
+            }
+
+            image {
+              width: 300px;
+
+              @media (max-width: 440px) {
+                width: 100%;
+              }
+            }
           }
   
           .descricao {
