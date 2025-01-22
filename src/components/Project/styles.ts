@@ -79,6 +79,10 @@ export const Proj = styled.div `
 
           .titleProj {
             font-size: 1em;
+
+            @media (max-width: 440px) {
+              font-size: .8em;
+            }
           }
   
           .img {
@@ -96,6 +100,10 @@ export const Proj = styled.div `
             background: #00003f;
             padding: 0 .5em;
             text-align: justify;
+
+            @media (max-width: 440px) {
+              font-size: 0.5em;
+            }
   
             P {
               text-indent: 1em;
