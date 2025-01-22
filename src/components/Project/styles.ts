@@ -91,7 +91,7 @@ export const Proj = styled.div `
             border-radius: 8px;
             pointer-events: none;
 
-            @media (max-width: 440px) {
+            /* @media (max-width: 440px) {
               width: 300px;
             }
 
@@ -101,7 +101,7 @@ export const Proj = styled.div `
               @media (max-width: 440px) {
                 width: 100%;
               }
-            }
+            } */
           }
   
           .descricao {
