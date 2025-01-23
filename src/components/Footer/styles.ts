@@ -8,4 +8,12 @@ export const Foot = styled.div `
   justify-content: center;
   color: var(--text-white);
   background: var(--secondary);
+
+  @media (max-width: 440px) {
+    padding: .2em;
+
+    h3 {
+      font-size: .8em;
+    }
+  } 
 `
