@@ -16,6 +16,7 @@ export const Ski = styled.div `
     align-items: center;
     flex-direction: column;
     gap: 1.5em;
+    overflow: auto;
 
     @media (max-width: 440px) {
       height: 88%;
